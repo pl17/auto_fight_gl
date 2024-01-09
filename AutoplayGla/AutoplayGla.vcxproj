@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{3498356C-020E-4A6C-AF05-506B6590F724}</ProjectGuid>
+    <RootNamespace>AutoplayGla</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>17.0.34322.80</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir)\Libdebug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_PDBG;_LANG_GERMANY;WINDOWS_IGNORE_PACKING_MISMATCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ActionSimulator.cpp" />
+    <ClCompile Include="AutoplayGla.cpp" />
+    <ClCompile Include="ax.cpp" />
+    <ClCompile Include="BQueryString.cpp" />
+    <ClCompile Include="BrowserUtility.cpp" />
+    <ClCompile Include="EventManager.cpp" />
+    <ClCompile Include="GameArenaServer.cpp" />
+    <ClCompile Include="GameItem.cpp" />
+    <ClCompile Include="GameLink.cpp" />
+    <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="GameMod_Arena.cpp" />
+    <ClCompile Include="GameMod_Base.cpp" />
+    <ClCompile Include="GameMod_Overview.cpp" />
+    <ClCompile Include="GameMod_Quest.cpp" />
+    <ClCompile Include="GameObject_Base.cpp" />
+    <ClCompile Include="GameObj_XPathConst.cpp" />
+    <ClCompile Include="GameTabGeneral.cpp" />
+    <ClCompile Include="GameThread_Base.cpp" />
+    <ClCompile Include="GameThread_General.cpp" />
+    <ClCompile Include="GameUtility.cpp" />
+    <ClCompile Include="GArenaObject_Arena.cpp" />
+    <ClCompile Include="GArenaObject_Base.cpp" />
+    <ClCompile Include="GArenaObject_Turma.cpp" />
+    <ClCompile Include="GEventHandler_Arena.cpp" />
+    <ClCompile Include="GEventHandler_Base.cpp" />
+    <ClCompile Include="GEventHandler_Dungeon.cpp" />
+    <ClCompile Include="GEventHandler_Inventory.cpp" />
+    <ClCompile Include="GEventHandler_Location.cpp" />
+    <ClCompile Include="GEventHandler_Market.cpp" />
+    <ClCompile Include="GEventHandler_Overview.cpp" />
+    <ClCompile Include="GEventHandler_Player.cpp" />
+    <ClCompile Include="GEventHandler_Quest.cpp" />
+    <ClCompile Include="GEventHandler_Shop.cpp" />
+    <ClCompile Include="GEventHandler_Turma.cpp" />
+    <ClCompile Include="GEventManager.cpp" />
+    <ClCompile Include="GEventUIHandler_Base.cpp" />
+    <ClCompile Include="GEventUIHandler_Inventory.cpp" />
+    <ClCompile Include="GExpeditionObject_Info.cpp" />
+    <ClCompile Include="GItemObject_Base.cpp" />
+    <ClCompile Include="GItemObject_Inventory.cpp" />
+    <ClCompile Include="GItemObject_Market.cpp" />
+    <ClCompile Include="GItemObject_Shop.cpp" />
+    <ClCompile Include="GItemObject_ShopInv.cpp" />
+    <ClCompile Include="GItemToolTip.cpp" />
+    <ClCompile Include="GLocationObject_Base.cpp" />
+    <ClCompile Include="GLocationObject_Dungeon.cpp" />
+    <ClCompile Include="GLocationObject_Location.cpp" />
+    <ClCompile Include="GPlayerObject_Player.cpp" />
+    <ClCompile Include="GQuestObject_Quest.cpp" />
+    <ClCompile Include="GTextBox.cpp" />
+    <ClCompile Include="ItemInvObject.cpp" />
+    <ClCompile Include="ItemMarketObject.cpp" />
+    <ClCompile Include="ItemObject.cpp" />
+    <ClCompile Include="Libdebug\IOutputDebug.cpp" />
+    <ClCompile Include="Libdebug\MOutputDebug_Base.cpp" />
+    <ClCompile Include="Libdebug\MOutputDebug_Console.cpp" />
+    <ClCompile Include="Libdebug\MOutputDebug_File.cpp" />
+    <ClCompile Include="Libdebug\MOutputDebug_View.cpp" />
+    <ClCompile Include="MouseHandler.cpp" />
+    <ClCompile Include="PBrowserWrapper.cpp" />
+    <ClCompile Include="PCallbackBrowser.cpp" />
+    <ClCompile Include="PGameBrowser.cpp" />
+    <ClCompile Include="PParser.cpp" />
+    <ClCompile Include="PSimulator.cpp" />
+    <ClCompile Include="PXPath.cpp" />
+    <ClCompile Include="QuestObject.cpp" />
+    <ClCompile Include="TestMouseEvent.cpp" />
+    <ClCompile Include="UHashTable.cpp" />
+    <ClCompile Include="UQueryString.cpp" />
+    <ClCompile Include="WebForm.cpp" />
+    <ClCompile Include="XPathParser.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ActionSimulator.h" />
+    <ClInclude Include="ArenaPlayer.h" />
+    <ClInclude Include="ax.h" />
+    <ClInclude Include="BQueryString.h" />
+    <ClInclude Include="BrowserUtility.h" />
+    <ClInclude Include="EventManager.h" />
+    <ClInclude Include="GameArenaServer.h" />
+    <ClInclude Include="GameItem.h" />
+    <ClInclude Include="GameLink.h" />
+    <ClInclude Include="GameManager.h" />
+    <ClInclude Include="GameMod_Arena.h" />
+    <ClInclude Include="GameMod_Base.h" />
+    <ClInclude Include="GameMod_Overview.h" />
+    <ClInclude Include="GameMod_Quest.h" />
+    <ClInclude Include="GameObject_Base.h" />
+    <ClInclude Include="GameObj_XPathConst.h" />
+    <ClInclude Include="GameTabGeneral.h" />
+    <ClInclude Include="GameThread_Base.h" />
+    <ClInclude Include="GameThread_General.h" />
+    <ClInclude Include="GameUtility.h" />
+    <ClInclude Include="GArenaObject_Arena.h" />
+    <ClInclude Include="GArenaObject_Base.h" />
+    <ClInclude Include="GArenaObject_Turma.h" />
+    <ClInclude Include="GEventHandler_Arena.h" />
+    <ClInclude Include="GEventHandler_Base.h" />
+    <ClInclude Include="GEventHandler_Dungeon.h" />
+    <ClInclude Include="GEventHandler_Inventory.h" />
+    <ClInclude Include="GEventHandler_Location.h" />
+    <ClInclude Include="GEventHandler_Market.h" />
+    <ClInclude Include="GEventHandler_Overview.h" />
+    <ClInclude Include="GEventHandler_Player.h" />
+    <ClInclude Include="GEventHandler_Quest.h" />
+    <ClInclude Include="GEventHandler_Shop.h" />
+    <ClInclude Include="GEventHandler_Turma.h" />
+    <ClInclude Include="GEventManager.h" />
+    <ClInclude Include="GEventUIHandler_Base.h" />
+    <ClInclude Include="GEventUIHandler_Inventory.h" />
+    <ClInclude Include="GExpeditionObject_Info.h" />
+    <ClInclude Include="GItemObject_Base.h" />
+    <ClInclude Include="GItemObject_Inventory.h" />
+    <ClInclude Include="GItemObject_Market.h" />
+    <ClInclude Include="GItemObject_Shop.h" />
+    <ClInclude Include="GItemObject_ShopInv.h" />
+    <ClInclude Include="GItemToolTip.h" />
+    <ClInclude Include="GLocationObject_Base.h" />
+    <ClInclude Include="GLocationObject_Dungeon.h" />
+    <ClInclude Include="GLocationObject_Location.h" />
+    <ClInclude Include="GPlayerObject_Player.h" />
+    <ClInclude Include="GQuestObject_Quest.h" />
+    <ClInclude Include="GTextBox.h" />
+    <ClInclude Include="IGameControl.h" />
+    <ClInclude Include="IGameEventHandler.h" />
+    <ClInclude Include="IGameMod.h" />
+    <ClInclude Include="IGameObject.h" />
+    <ClInclude Include="IGameReport.h" />
+    <ClInclude Include="IGameTab.h" />
+    <ClInclude Include="IGuiControl.h" />
+    <ClInclude Include="IItemObject.h" />
+    <ClInclude Include="ISynchronized.h" />
+    <ClInclude Include="ItemInvObject.h" />
+    <ClInclude Include="ItemMarketObject.h" />
+    <ClInclude Include="ItemObject.h" />
+    <ClInclude Include="Libdebug\IOutputDebug.h" />
+    <ClInclude Include="Libdebug\Logs.h" />
+    <ClInclude Include="Libdebug\MOutputDebug_Base.h" />
+    <ClInclude Include="Libdebug\MOutputDebug_Console.h" />
+    <ClInclude Include="Libdebug\MOutputDebug_File.h" />
+    <ClInclude Include="Libdebug\MOutputDebug_View.h" />
+    <ClInclude Include="MControls.h" />
+    <ClInclude Include="MouseHandler.h" />
+    <ClInclude Include="PBrowserWrapper.h" />
+    <ClInclude Include="PCallbackBrowser.h" />
+    <ClInclude Include="PGameBrowser.h" />
+    <ClInclude Include="PParser.h" />
+    <ClInclude Include="PSimulator.h" />
+    <ClInclude Include="PWebbrowserWrapper.h" />
+    <ClInclude Include="PXPath.h" />
+    <ClInclude Include="QuestObject.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="TestMouseEvent.h" />
+    <ClInclude Include="UArrayList.hpp" />
+    <ClInclude Include="UHashTable.h" />
+    <ClInclude Include="ULinkList.hpp" />
+    <ClInclude Include="ULinkNode.hpp" />
+    <ClInclude Include="UQueryString.h" />
+    <ClInclude Include="WebForm.h" />
+    <ClInclude Include="XPathParser.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AutoplayGla.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

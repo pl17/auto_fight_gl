@@ -1,0 +1,599 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Browser">
+      <UniqueIdentifier>{1c42b846-a6fa-4157-b7ba-280d3ee12d8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Browser\XPath">
+      <UniqueIdentifier>{87ae60e0-b8f2-490e-b670-8668e62548bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Browser\QueryString">
+      <UniqueIdentifier>{8eec918f-0301-4ac1-bb1c-f418d70c29ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser">
+      <UniqueIdentifier>{e9c3a8a8-f6ec-40f0-b595-c8fb25e9a673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{5f6fd31d-9b57-4024-9a3f-b652d6e0f67a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\GameArena">
+      <UniqueIdentifier>{1ff0a296-164e-427f-b812-c88d8fcb91ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\GameQuest">
+      <UniqueIdentifier>{7c577d09-72c6-49f5-8420-026bde5dd5b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\MouseEvent">
+      <UniqueIdentifier>{8faabc0a-8d9f-4af2-8ad5-f73f0ac46d69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\GamePlayer">
+      <UniqueIdentifier>{a36c2690-ff36-46ad-b93c-d2e153e87705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\GameLocation">
+      <UniqueIdentifier>{8f464127-c894-44ad-a3f4-727b1f35101e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\GameItem">
+      <UniqueIdentifier>{59b4f426-7c41-40f2-9447-58dd3ac16c28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\GameItem\MarketItem">
+      <UniqueIdentifier>{bb61c15e-bcf6-4adb-811e-bdfd8f581f3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\GameItem\InventoryItem">
+      <UniqueIdentifier>{cd4b0647-6a0e-44bb-87f5-3fc930401ac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\GameExpedition">
+      <UniqueIdentifier>{05cdf096-1610-4ed3-b50f-29c32c701adb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{abc3f12f-910c-42f9-9789-710f6bbf8842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Controls">
+      <UniqueIdentifier>{e8829916-4eec-401c-a2d0-04a94880516f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{7c00dffd-caff-4b52-9201-0950fa0704b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\HashTable">
+      <UniqueIdentifier>{1075095d-1f4f-42a1-966c-806a4ab50522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEvent">
+      <UniqueIdentifier>{ecc01070-c38c-4817-910b-9aa159c2493d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEvent\Arena">
+      <UniqueIdentifier>{07f3813e-ba77-4f32-9557-24bfe55c9896}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEvent\Quest">
+      <UniqueIdentifier>{99378ced-5aec-4f71-9f6f-bc8999c35d32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEvent\Player">
+      <UniqueIdentifier>{731f3747-3526-4c5a-b0d0-f2252ecce0b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEvent\Location">
+      <UniqueIdentifier>{2017d371-1a96-4fb2-af23-fc9d447cc841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEvent\CustomizeUI">
+      <UniqueIdentifier>{885c1674-963a-413f-b10e-492e0c836880}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEvent\Market">
+      <UniqueIdentifier>{abbc9896-c216-4acd-a894-119f01191cd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEvent\Shop">
+      <UniqueIdentifier>{c2bbd728-163f-474a-9fa0-48a7336ff9fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEvent\Inventory">
+      <UniqueIdentifier>{dd924ea0-10f1-4565-8865-8a3331065f64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libdebug">
+      <UniqueIdentifier>{b5364efb-2fdf-4051-896a-b723dd6d7820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global">
+      <UniqueIdentifier>{20d62936-119a-4e40-99ec-8aee64e1b9fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameReport">
+      <UniqueIdentifier>{8584073b-cce5-4083-b6a1-ca4f8e696dab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RunThread">
+      <UniqueIdentifier>{d1341dd1-55b7-4b63-84d4-f4576701a3eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameUtility">
+      <UniqueIdentifier>{2357e2f2-aeae-4f1f-b2be-b461a0282b54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameMod">
+      <UniqueIdentifier>{775f41a2-85e3-4eef-9eb0-94e0496a57c5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AutoplayGla.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionSimulator.cpp">
+      <Filter>Browser</Filter>
+    </ClCompile>
+    <ClCompile Include="ax.cpp">
+      <Filter>Browser</Filter>
+    </ClCompile>
+    <ClCompile Include="BrowserUtility.cpp">
+      <Filter>Browser</Filter>
+    </ClCompile>
+    <ClCompile Include="PBrowserWrapper.cpp">
+      <Filter>Browser</Filter>
+    </ClCompile>
+    <ClCompile Include="PCallbackBrowser.cpp">
+      <Filter>Browser</Filter>
+    </ClCompile>
+    <ClCompile Include="PGameBrowser.cpp">
+      <Filter>Browser</Filter>
+    </ClCompile>
+    <ClCompile Include="PSimulator.cpp">
+      <Filter>Browser</Filter>
+    </ClCompile>
+    <ClCompile Include="PXPath.cpp">
+      <Filter>Browser</Filter>
+    </ClCompile>
+    <ClCompile Include="WebForm.cpp">
+      <Filter>Browser</Filter>
+    </ClCompile>
+    <ClCompile Include="XPathParser.cpp">
+      <Filter>Browser\XPath</Filter>
+    </ClCompile>
+    <ClCompile Include="BQueryString.cpp">
+      <Filter>Browser\QueryString</Filter>
+    </ClCompile>
+    <ClCompile Include="PParser.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLink.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObj_XPathConst.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject_Base.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameArenaServer.cpp">
+      <Filter>GameObject\GameArena</Filter>
+    </ClCompile>
+    <ClCompile Include="GArenaObject_Arena.cpp">
+      <Filter>GameObject\GameArena</Filter>
+    </ClCompile>
+    <ClCompile Include="GArenaObject_Base.cpp">
+      <Filter>GameObject\GameArena</Filter>
+    </ClCompile>
+    <ClCompile Include="GArenaObject_Turma.cpp">
+      <Filter>GameObject\GameArena</Filter>
+    </ClCompile>
+    <ClCompile Include="GQuestObject_Quest.cpp">
+      <Filter>GameObject\GameQuest</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestObject.cpp">
+      <Filter>GameObject\GameQuest</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseHandler.cpp">
+      <Filter>GameObject\MouseEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="TestMouseEvent.cpp">
+      <Filter>GameObject\MouseEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="GPlayerObject_Player.cpp">
+      <Filter>GameObject\GamePlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="GLocationObject_Base.cpp">
+      <Filter>GameObject\GameLocation</Filter>
+    </ClCompile>
+    <ClCompile Include="GLocationObject_Dungeon.cpp">
+      <Filter>GameObject\GameLocation</Filter>
+    </ClCompile>
+    <ClCompile Include="GLocationObject_Location.cpp">
+      <Filter>GameObject\GameLocation</Filter>
+    </ClCompile>
+    <ClCompile Include="GameItem.cpp">
+      <Filter>GameObject\GameItem</Filter>
+    </ClCompile>
+    <ClCompile Include="GItemObject_Base.cpp">
+      <Filter>GameObject\GameItem</Filter>
+    </ClCompile>
+    <ClCompile Include="GItemToolTip.cpp">
+      <Filter>GameObject\GameItem</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemObject.cpp">
+      <Filter>GameObject\GameItem</Filter>
+    </ClCompile>
+    <ClCompile Include="GItemObject_Market.cpp">
+      <Filter>GameObject\GameItem\MarketItem</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemMarketObject.cpp">
+      <Filter>GameObject\GameItem\MarketItem</Filter>
+    </ClCompile>
+    <ClCompile Include="GItemObject_Inventory.cpp">
+      <Filter>GameObject\GameItem\InventoryItem</Filter>
+    </ClCompile>
+    <ClCompile Include="GItemObject_Shop.cpp">
+      <Filter>GameObject\GameItem\InventoryItem</Filter>
+    </ClCompile>
+    <ClCompile Include="GItemObject_ShopInv.cpp">
+      <Filter>GameObject\GameItem\InventoryItem</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemInvObject.cpp">
+      <Filter>GameObject\GameItem\InventoryItem</Filter>
+    </ClCompile>
+    <ClCompile Include="GExpeditionObject_Info.cpp">
+      <Filter>GameObject\GameExpedition</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTabGeneral.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GTextBox.cpp">
+      <Filter>GUI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="UQueryString.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="UHashTable.cpp">
+      <Filter>Util\HashTable</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager.cpp">
+      <Filter>GameEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="GEventHandler_Base.cpp">
+      <Filter>GameEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="GEventManager.cpp">
+      <Filter>GameEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="GEventHandler_Arena.cpp">
+      <Filter>GameEvent\Arena</Filter>
+    </ClCompile>
+    <ClCompile Include="GEventHandler_Turma.cpp">
+      <Filter>GameEvent\Arena</Filter>
+    </ClCompile>
+    <ClCompile Include="GEventHandler_Quest.cpp">
+      <Filter>GameEvent\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="GEventHandler_Player.cpp">
+      <Filter>GameEvent\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GEventHandler_Dungeon.cpp">
+      <Filter>GameEvent\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="GEventHandler_Location.cpp">
+      <Filter>GameEvent\Location</Filter>
+    </ClCompile>
+    <ClCompile Include="GEventUIHandler_Base.cpp">
+      <Filter>GameEvent\CustomizeUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GEventUIHandler_Inventory.cpp">
+      <Filter>GameEvent\CustomizeUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GEventHandler_Market.cpp">
+      <Filter>GameEvent\Market</Filter>
+    </ClCompile>
+    <ClCompile Include="GEventHandler_Shop.cpp">
+      <Filter>GameEvent\Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="GEventHandler_Inventory.cpp">
+      <Filter>GameEvent\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="GEventHandler_Overview.cpp">
+      <Filter>GameEvent\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Libdebug\IOutputDebug.cpp">
+      <Filter>Libdebug</Filter>
+    </ClCompile>
+    <ClCompile Include="Libdebug\MOutputDebug_Base.cpp">
+      <Filter>Libdebug</Filter>
+    </ClCompile>
+    <ClCompile Include="Libdebug\MOutputDebug_Console.cpp">
+      <Filter>Libdebug</Filter>
+    </ClCompile>
+    <ClCompile Include="Libdebug\MOutputDebug_File.cpp">
+      <Filter>Libdebug</Filter>
+    </ClCompile>
+    <ClCompile Include="Libdebug\MOutputDebug_View.cpp">
+      <Filter>Libdebug</Filter>
+    </ClCompile>
+    <ClCompile Include="GameThread_Base.cpp">
+      <Filter>RunThread</Filter>
+    </ClCompile>
+    <ClCompile Include="GameThread_General.cpp">
+      <Filter>RunThread</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUtility.cpp">
+      <Filter>GameUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMod_Arena.cpp">
+      <Filter>GameMod</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMod_Base.cpp">
+      <Filter>GameMod</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMod_Overview.cpp">
+      <Filter>GameMod</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMod_Quest.cpp">
+      <Filter>GameMod</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MControls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionSimulator.h">
+      <Filter>Browser</Filter>
+    </ClInclude>
+    <ClInclude Include="ax.h">
+      <Filter>Browser</Filter>
+    </ClInclude>
+    <ClInclude Include="BrowserUtility.h">
+      <Filter>Browser</Filter>
+    </ClInclude>
+    <ClInclude Include="PBrowserWrapper.h">
+      <Filter>Browser</Filter>
+    </ClInclude>
+    <ClInclude Include="PCallbackBrowser.h">
+      <Filter>Browser</Filter>
+    </ClInclude>
+    <ClInclude Include="PGameBrowser.h">
+      <Filter>Browser</Filter>
+    </ClInclude>
+    <ClInclude Include="PSimulator.h">
+      <Filter>Browser</Filter>
+    </ClInclude>
+    <ClInclude Include="PWebbrowserWrapper.h">
+      <Filter>Browser</Filter>
+    </ClInclude>
+    <ClInclude Include="PXPath.h">
+      <Filter>Browser</Filter>
+    </ClInclude>
+    <ClInclude Include="WebForm.h">
+      <Filter>Browser</Filter>
+    </ClInclude>
+    <ClInclude Include="XPathParser.h">
+      <Filter>Browser\XPath</Filter>
+    </ClInclude>
+    <ClInclude Include="BQueryString.h">
+      <Filter>Browser\QueryString</Filter>
+    </ClInclude>
+    <ClInclude Include="PParser.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLink.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj_XPathConst.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject_Base.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ArenaPlayer.h">
+      <Filter>GameObject\GameArena</Filter>
+    </ClInclude>
+    <ClInclude Include="GameArenaServer.h">
+      <Filter>GameObject\GameArena</Filter>
+    </ClInclude>
+    <ClInclude Include="GArenaObject_Arena.h">
+      <Filter>GameObject\GameArena</Filter>
+    </ClInclude>
+    <ClInclude Include="GArenaObject_Base.h">
+      <Filter>GameObject\GameArena</Filter>
+    </ClInclude>
+    <ClInclude Include="GArenaObject_Turma.h">
+      <Filter>GameObject\GameArena</Filter>
+    </ClInclude>
+    <ClInclude Include="GQuestObject_Quest.h">
+      <Filter>GameObject\GameQuest</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestObject.h">
+      <Filter>GameObject\GameQuest</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseHandler.h">
+      <Filter>GameObject\MouseEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="TestMouseEvent.h">
+      <Filter>GameObject\MouseEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="GPlayerObject_Player.h">
+      <Filter>GameObject\GamePlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="GLocationObject_Base.h">
+      <Filter>GameObject\GameLocation</Filter>
+    </ClInclude>
+    <ClInclude Include="GLocationObject_Dungeon.h">
+      <Filter>GameObject\GameLocation</Filter>
+    </ClInclude>
+    <ClInclude Include="GLocationObject_Location.h">
+      <Filter>GameObject\GameLocation</Filter>
+    </ClInclude>
+    <ClInclude Include="GameItem.h">
+      <Filter>GameObject\GameItem</Filter>
+    </ClInclude>
+    <ClInclude Include="GItemObject_Base.h">
+      <Filter>GameObject\GameItem</Filter>
+    </ClInclude>
+    <ClInclude Include="GItemToolTip.h">
+      <Filter>GameObject\GameItem</Filter>
+    </ClInclude>
+    <ClInclude Include="IItemObject.h">
+      <Filter>GameObject\GameItem</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemObject.h">
+      <Filter>GameObject\GameItem</Filter>
+    </ClInclude>
+    <ClInclude Include="GItemObject_Market.h">
+      <Filter>GameObject\GameItem\MarketItem</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemMarketObject.h">
+      <Filter>GameObject\GameItem\MarketItem</Filter>
+    </ClInclude>
+    <ClInclude Include="GItemObject_Inventory.h">
+      <Filter>GameObject\GameItem\InventoryItem</Filter>
+    </ClInclude>
+    <ClInclude Include="GItemObject_Shop.h">
+      <Filter>GameObject\GameItem\InventoryItem</Filter>
+    </ClInclude>
+    <ClInclude Include="GItemObject_ShopInv.h">
+      <Filter>GameObject\GameItem\InventoryItem</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemInvObject.h">
+      <Filter>GameObject\GameItem\InventoryItem</Filter>
+    </ClInclude>
+    <ClInclude Include="GExpeditionObject_Info.h">
+      <Filter>GameObject\GameExpedition</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTabGeneral.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameTab.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GTextBox.h">
+      <Filter>GUI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameControl.h">
+      <Filter>GUI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="IGuiControl.h">
+      <Filter>GUI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="UArrayList.hpp">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="ULinkList.hpp">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="ULinkNode.hpp">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="UQueryString.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="UHashTable.h">
+      <Filter>Util\HashTable</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>GameEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="GEventHandler_Base.h">
+      <Filter>GameEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="GEventManager.h">
+      <Filter>GameEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameEventHandler.h">
+      <Filter>GameEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="GEventHandler_Arena.h">
+      <Filter>GameEvent\Arena</Filter>
+    </ClInclude>
+    <ClInclude Include="GEventHandler_Turma.h">
+      <Filter>GameEvent\Arena</Filter>
+    </ClInclude>
+    <ClInclude Include="GEventHandler_Quest.h">
+      <Filter>GameEvent\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="GEventHandler_Player.h">
+      <Filter>GameEvent\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GEventHandler_Dungeon.h">
+      <Filter>GameEvent\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="GEventHandler_Location.h">
+      <Filter>GameEvent\Location</Filter>
+    </ClInclude>
+    <ClInclude Include="GEventUIHandler_Base.h">
+      <Filter>GameEvent\CustomizeUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GEventUIHandler_Inventory.h">
+      <Filter>GameEvent\CustomizeUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GEventHandler_Market.h">
+      <Filter>GameEvent\Market</Filter>
+    </ClInclude>
+    <ClInclude Include="GEventHandler_Shop.h">
+      <Filter>GameEvent\Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="GEventHandler_Inventory.h">
+      <Filter>GameEvent\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="GEventHandler_Overview.h">
+      <Filter>GameEvent\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Libdebug\IOutputDebug.h">
+      <Filter>Libdebug</Filter>
+    </ClInclude>
+    <ClInclude Include="Libdebug\Logs.h">
+      <Filter>Libdebug</Filter>
+    </ClInclude>
+    <ClInclude Include="Libdebug\MOutputDebug_Base.h">
+      <Filter>Libdebug</Filter>
+    </ClInclude>
+    <ClInclude Include="Libdebug\MOutputDebug_Console.h">
+      <Filter>Libdebug</Filter>
+    </ClInclude>
+    <ClInclude Include="Libdebug\MOutputDebug_File.h">
+      <Filter>Libdebug</Filter>
+    </ClInclude>
+    <ClInclude Include="Libdebug\MOutputDebug_View.h">
+      <Filter>Libdebug</Filter>
+    </ClInclude>
+    <ClInclude Include="ISynchronized.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameReport.h">
+      <Filter>GameReport</Filter>
+    </ClInclude>
+    <ClInclude Include="GameThread_Base.h">
+      <Filter>RunThread</Filter>
+    </ClInclude>
+    <ClInclude Include="GameThread_General.h">
+      <Filter>RunThread</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUtility.h">
+      <Filter>GameUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMod_Arena.h">
+      <Filter>GameMod</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMod_Base.h">
+      <Filter>GameMod</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMod_Overview.h">
+      <Filter>GameMod</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMod_Quest.h">
+      <Filter>GameMod</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameMod.h">
+      <Filter>GameMod</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AutoplayGla.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,116 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLGMAIN DIALOGEX 0, 0, 331, 197
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Test",IDC_BTNTEST,186,149,43,14
+    CONTROL         "Show Browser",IDC_CHKSHOWBROWSER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,173,68,77,10
+    CONTROL         "Auto Arena",IDC_CHKAUTOARENA,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,173,110,53,10
+    CONTROL         "Auto Expedition",IDC_CHKAUTOLOCATION,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,250,82,67,10
+    CONTROL         "Stop On Low HP",IDC_CHKARENAHP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,173,127,67,10
+    GROUPBOX        "Arena",IDC_STATIC,164,95,160,50
+    EDITTEXT        IDC_TXTARENAHP,250,123,64,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Auto Turma",IDC_CHKAUTOTURMA,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,173,82,53,10
+    CONTROL         "Auto Bid Item",IDC_CHKAUTOBIDITEM,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,250,68,59,10
+    EDITTEXT        IDC_TXTSRCX,7,178,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TXTSRCY,54,178,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TXTDESX,121,177,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TXTDESY,167,177,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Button1",IDC_BTNSELL,226,177,39,14
+    PUSHBUTTON      "Button2",IDC_BTNBUY,276,177,39,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DLGMAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 324
+        VERTGUIDE, 173
+        VERTGUIDE, 250
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 190
+        HORZGUIDE, 61
+        HORZGUIDE, 78
+        HORZGUIDE, 92
+        HORZGUIDE, 163
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
